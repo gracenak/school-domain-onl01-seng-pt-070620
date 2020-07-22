@@ -11,7 +11,7 @@ class School
   def add_a_student(name, grade)
     @name = name
     @grade = grade
-    @roster << self.name, self.grade
+    @roster << self.name :: self.grade
   end
   
 #   def initialize(new)
