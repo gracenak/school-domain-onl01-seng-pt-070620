@@ -8,6 +8,8 @@ class School
     @roster = roster
   end
   
+end
+  
 #   def initialize(new)
 #     @new = new
 #     @roster = {}
