@@ -11,7 +11,8 @@ class School
   def add_a_student(name, grade)
     @name = name
     @grade = grade
-    @roster << self.name :: self.grade
+    if @roster[grade]== {}
+      @roster[grade] << name
   end
   
 #   def initialize(new)
