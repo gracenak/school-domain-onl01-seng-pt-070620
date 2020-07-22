@@ -11,7 +11,8 @@ class School
   def add_a_student
     students.each do |student|
       add_a_student << #{student}
-end
+    end
+  end
   
 #   def initialize(new)
 #     @new = new
