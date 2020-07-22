@@ -8,10 +8,10 @@ class School
     @roster = {}
   end
   
-  def add_a_student
-    students.each do |student|
-      add_a_student << #{student}
-    end
+  def add_a_student(name, grade)
+    @name = name
+    @grade = grade
+    @roster << self.name, self.grade
   end
   
 #   def initialize(new)
