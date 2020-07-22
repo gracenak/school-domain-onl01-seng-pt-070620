@@ -4,7 +4,7 @@ class School
   
   
   def initialize(new)
-    @name = name
+    @new = new
     @roster = {}
   end
   
